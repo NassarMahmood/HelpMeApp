@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <link rel="stylesheet" type="text/css" href="../CSS/login.css"></link>
+
+    <script src="../JS/login.js" type="text/javascript"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+
+
+</head>
+<body>
+
+
+    <div class="login-wrap">
+        <div class="login-html">
+            <input id="tab-1" type="radio" name="tab" class="sign-in" checked><label for="tab-1" class="tab">Sign In</label>
+            <input id="tab-2" type="radio" name="tab" class="sign-up"><label for="tab-2" class="tab">Sign Up</label>
+            <div class="login-form">
+                <div class="sign-in-htm">
+                    
+                    <!-- Email onsubmit="return signIn()" action="index.html" -->
+                    <div class="group">
+                        <label for="user" class="label">Email</label>
+                        <input id="signInEmail" type="text" class="input" required>
+                    </div>
+
+                    <!-- Domain -->
+                    <div class="group">
+                        <label for="pass" class="label">Password</label>
+                        <input type="password" id="signInPassword" type="text" class="input" required>
+                    </div>
+                   
+                    <div class="hr"></div>
+                    <div class="foot-lnk"></div>
+
+                    <!-- Sign in button -->
+                    <div class="group">
+                        <button onclick="signIn()" class="button">Sign In</button>
+                    </div>
+
+                    <div class="hr"></div>
+                    <div class="foot-lnk"></div>
+                </div>
+
+
+
+                <div class="sign-up-htm">
+
+                    <!-- Name action="index.html"-->
+
+                    <!-- ID -->
+                    <div class="group">
+                        <label for="pass" class="label">Id</label>
+                        <input id="signUpId" type="text" class="input" required>
+                    </div>
+
+                     <!-- Fisrt Name -->
+                    <div class="group">
+                        <label for="user" class="label">First name</label>
+                        <input id="signUpFirstName" type="text" class="input" required>
+                    </div>
+
+                     <!-- Fisrt Name -->
+                     <div class="group">
+                        <label for="user" class="label">Last name</label>
+                        <input id="signUpLastName" type="text" class="input" required>
+                    </div>
+                    
+                     <!-- Email -->
+                    <div class="group">
+                        <label for="pass" class="label">Email</label>
+                        <input  id="signUpEmail" type="text" class="input" required>
+                    </div>
+
+                     <!-- Password -->
+                     <div class="group">
+                        <label for="pass" class="label">Password</label>
+                        <input type="password" id="signUpPassword" type="text" class="input" required>
+                    </div>
+
+                    <!-- Phone -->
+                    <div class="group">
+                        <label for="pass" class="label">Phone</label>
+                        <input id="signUpPhone" type="text" class="input" required>
+                    </div>
+
+                    
+                    <!-- State -->
+                    <div class="group">
+                        <label for="pass" class="label">State</label>
+                        <input id="signUpState" type="text" class="input" required>
+                    </div>
+
+                    <!-- City -->
+                    <div class="group">
+                        <label for="pass" class="label">City</label>
+                        <input id="signUpCity" type="text" class="input" required>
+                    </div>
+
+                    <!-- StreetAddress -->
+                    <div class="group">
+                        <label for="pass" class="label">Street Address</label>
+                        <input id="signUpStreetAddress" type="text" class="input" required>
+                    </div>
+
+                    
+                     <!-- HouseNumber -->
+                     <div class="group">
+                        <label for="pass" class="label">House Number</label>
+                        <input id="signUpHouseNumber" type="text" class="input" required>
+                    </div>
+
+                     <!-- ZipCode -->
+                     <div class="group">
+                        <label for="pass" class="label">Zip Code</label>
+                        <input id="signUpZipCode" type="text" class="input" required>
+                    </div>
+                    
+
+
+                    <!-- Birthdate -->
+                    <div class="group">
+                        <label for="pass" class="label">Birth date</label>
+                        <input type="date" id="birthday" name="birthday" class="input" required>
+                    </div>
+
+
+                     <!-- Gender -->
+                    <div class="group">
+                        <label for="pass" class="label">Gender</label>
+                        <select id="genderSelect" class="select-css">
+                            <option value="Player">MALE</option>
+                            <option value="Manager">Female</option>
+                        </select >
+                        <br>
+                    </div>
+                    
+                
+
+                    <!-- Sign up button --> 
+                    <div class="group">
+                        <button onclick="signUp()" class="button">Sign Up</button>
+                    </div>
+                    <div class="hr"></div>
+                    <div class="foot-lnk">
+                        <label for="tab-1">Already Member?</a>
+                    </div>
+                </div>
+
+
+
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
+
+
+

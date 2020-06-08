@@ -1,0 +1,103 @@
+input,
+button,
+select,
+optgroup,
+textarea {
+    
+    margin: 20px;
+    height: 80px;
+    width: 200px;
+    position: relative;
+    text-align: center;
+ 
+    
+}
+
+.col-sm-2{
+
+
+    margin-top: 150px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #E5F0FF;
+
+    
+}
+
+.col-sm-10{
+
+    margin-top: 150px;
+    /* background-image: url(../Photos/hello_3.png);
+    background-repeat: no-repeat;
+    background-size: auto; */
+
+
+}
+
+.navbar navbar-expand-sm bg-dark navbar-dark fixed-top{
+
+
+    margin-top: 40px;
+}
+
+
+.form-control{
+
+    display: initial;
+    width: 20%
+
+
+}
+
+.screen{
+
+    background-color: #E5F0FF;
+    border-color: #007bff;
+    text-align: center;
+    margin-bottom: 50px;
+    
+
+}
+
+#logout{
+    padding-left: 1600px;
+}
+
+
+#search-button , #state-button , #mall-button , #store-button{
+    height:50px;
+    width: 300px;
+    text-align: center;
+} 
+
+
+#input-search , #input-state , #mall-name , #mall-parent  ,#mall-city , #mall-street , #mall-bulding , #store-name , #store-parent  ,#store-category , #store-floor{
+
+    width: 400px;
+}
+
+
+
+.hr{
+	height:1px;
+	margin:6px 0 50px 0;
+	background: #0351C1;
+}
+.foot-lnk{
+	text-align:center;
+}
+
+
+.out-put{
+
+    font-size: small;
+    background-color: #45D09E;
+}
+
+
+.body{
+
+    background-image: url(../Photos/logInBackground.jpg)
+
+
+}

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+<script src="js/demo.js"></script>
+<meta charset="ISO-8859-1">
+<title>Demo Web Page of application</title>
+</head>
+<body>
+Demo Web Page
+<div id="app">
+<button v-on:click="loadMessages">click to load messages from server</button>
+of page {{page + 1}} of size <input v-model="size"/>
+<button v-on:click="loadNextPage">next page</button>
+<button v-on:click="loadFirstPage">back to first page</button>
+ <ul>
+    <li v-for="msg in messages">
+      <B>{{ msg.id }}</B> - {{msg.type}}
+    </li>
+  </ul>
+  
+  number of results: {{ messageCount }} / {{size}}
+  <hr/>
+  <div style="color:red">
+  	{{ errorMessage}}
+  </div>
+</div>
+</body>
+</html>

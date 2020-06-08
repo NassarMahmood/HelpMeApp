@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+    android:background="@drawable/hello_3"
+        >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+
+            tools:context=".Register"
+
+            >
+
+
+            <EditText
+                android:id="@+id/city"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="275dp"
+                android:drawableLeft="@drawable/city"
+                android:ems="10"
+
+                android:hint="   City"
+                android:inputType="textPersonName"
+                android:textColor="@color/Black"
+                android:textColorHint="@color/Black"
+                android:textSize="14dp"
+                android:typeface="serif" />
+
+
+            <EditText
+                android:id="@+id/houseNumber"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="325dp"
+                android:drawableLeft="@drawable/house"
+                android:ems="10"
+                android:hint=" House number"
+
+                android:inputType="textPersonName"
+                android:textColor="@color/Black"
+                android:textColorHint="@color/Black"
+                android:textSize="14dp"
+                android:typeface="serif"
+
+               />
+
+            <EditText
+                android:id="@+id/zipCode"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="200dp"
+                android:layout_marginTop="325dp"
+
+                android:drawableLeft="@drawable/zip_code"
+                android:ems="10"
+                android:hint=" Zip code"
+
+                android:inputType="textPersonName"
+                android:textColor="@color/Black"
+                android:textColorHint="@color/Black"
+                android:textSize="14dp"
+                android:typeface="serif"/>
+
+            <EditText
+                android:id="@+id/state"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="200dp"
+                android:layout_marginTop="275dp"
+                android:drawableLeft="@drawable/city"
+                android:ems="10"
+                android:hint="  State"
+                android:inputType="textPersonName"
+                android:textColor="@color/Black"
+                android:textColorHint="@color/Black"
+                android:textSize="14dp"
+                android:typeface="serif"/>
+
+            <EditText
+                android:id="@+id/streetAddress"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="390dp"
+                android:drawableLeft="@drawable/street_number"
+                android:ems="20"
+                android:hint=" Street address"
+                android:inputType="textPersonName"
+                android:textColor="@color/Black"
+                android:textColorHint="@color/Black"
+                android:textSize="14dp"
+                android:typeface="serif"
+                android:gravity="center"
+                />
+
+
+
+            <Button
+                android:id="@+id/btReg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="240dp"
+                android:layout_marginTop="600dp"
+
+                android:text="Register"
+                android:textAllCaps="false"
+                android:typeface="serif"
+                />
+
+            <RadioGroup
+                android:id="@+id/radio"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="500dp">
+
+
+                <RadioButton
+                    android:id="@+id/FEMALE"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:drawableLeft="@drawable/female"
+                    android:text=" Female"
+                    android:textColor="@color/Black"
+                    android:typeface="serif"/>
+
+                <RadioButton
+                    android:id="@+id/MALE"
+                    android:layout_width="133dp"
+                    android:layout_height="42dp"
+                    android:drawableLeft="@drawable/male"
+                    android:text=" Male"
+                    android:textColor="@color/Black"
+                    android:typeface="serif"/>
+
+
+            </RadioGroup>
+
+            <TextView
+
+                android:id="@+id/chooseDate"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="460dp"
+                android:text=" Birth date"
+                android:textAlignment="viewStart"
+                android:textColor="@color/Black"
+                android:textSize="14dp"
+                android:textStyle="bold"
+                android:typeface="serif"/>
+
+            <TextView
+                android:id="@+id/text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:typeface="serif"
+                android:layout_alignParentEnd="true"
+
+
+                android:layout_marginEnd="2dp"
+                android:text="Register"
+                android:textAlignment="center"
+                android:textColor="@color/Black"
+                android:textSize="40dp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/fisrtName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="110dp"
+                android:drawableLeft="@drawable/first_name"
+                android:ems="10"
+                android:hint=" Fisrt name"
+                android:inputType="textPersonName"
+                android:textColor="@color/Black"
+                android:textColorHint="@color/Black"
+                android:textSize="14dp"
+                android:typeface="serif"
+                />
+
+            <EditText
+                android:id="@+id/lastName"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="200dp"
+                android:layout_marginTop="110dp"
+                android:drawableLeft="@drawable/first_name"
+                android:ems="10"
+                android:hint=" Last name"
+                android:inputType="textPersonName"
+                android:textColor="@color/Black"
+                android:textColorHint="@color/Black"
+                android:textSize="14dp"
+                android:typeface="serif"
+                />
+
+            <EditText
+                android:id="@+id/password"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="200dp"
+                android:layout_marginTop="160dp"
+                android:drawableLeft="@drawable/password"
+                android:ems="10"
+                android:hint=" Password"
+
+                android:inputType="textPassword"
+                android:textColor="@color/Black"
+                android:textColorHint="@color/Black"
+                android:textSize="14dp"
+                android:typeface="serif"/>
+
+            <EditText
+                android:id="@+id/phoneNumber"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="200dp"
+                android:layout_marginTop="216dp"
+                android:drawableLeft="@drawable/phone_number2"
+                android:ems="10"
+                android:hint=" Phone number"
+                android:inputType="textPersonName"
+                android:textColor="@color/Black"
+                android:textColorHint="@color/Black"
+                android:textSize="14dp"
+                android:typeface="serif"/>
+
+            <EditText
+                android:id="@+id/email"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="160dp"
+                android:drawableLeft="@drawable/email"
+                android:ems="10"
+                android:hint=" Email"
+                android:inputType="textPersonName"
+                android:textColor="@color/Black"
+                android:textColorHint="@color/Black"
+                android:textSize="14dp"
+                android:typeface="serif"
+              />
+
+            <EditText
+                android:id="@+id/userId"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="210dp"
+                android:drawableLeft="@drawable/id"
+                android:ems="10"
+                android:hint="  Id"
+                android:inputType="textPersonName"
+                android:textColor="@color/Black"
+                android:textColorHint="@color/Black"
+                android:textSize="14dp"
+                android:typeface="serif"
+               />
+
+            <TextView
+
+                android:id="@+id/setDate"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="130dp"
+                android:layout_marginTop="460dp"
+
+                android:drawableLeft="@drawable/birth"
+                android:text=" mm/dd/yyyy"
+                android:textAlignment="center"
+                android:textColor="@color/Black"
+                android:textSize="14dp"
+                android:textStyle="bold"
+                android:typeface="serif"
+                />
+
+
+
+
+        </RelativeLayout>
+    </ScrollView>
+
+
